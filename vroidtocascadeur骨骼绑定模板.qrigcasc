@@ -1,0 +1,802 @@
+{
+	"Document": [
+		{
+			"Title": "Body",
+			"Sections": [
+				{
+					"Section": "Body",
+					"Names": [
+						{
+							"Bone name": "pelvis",
+							"Joint name": "J_Bip_C_Hips",
+							"Joint path": [
+								"Root"
+							]
+						},
+						{
+							"Bone name": "stomach",
+							"Joint name": "J_Bip_C_Spine",
+							"Joint path": [
+								"Root",
+								"J_Bip_C_Hips"
+							]
+						},
+						{
+							"Bone name": "chest",
+							"Joint name": "J_Bip_C_UpperChest",
+							"Joint path": [
+								"Root",
+								"J_Bip_C_Hips",
+								"J_Bip_C_Spine",
+								"J_Bip_C_Chest"
+							]
+						},
+						{
+							"Bone name": "neck",
+							"Joint name": "J_Bip_C_Neck",
+							"Joint path": [
+								"Root",
+								"J_Bip_C_Hips",
+								"J_Bip_C_Spine",
+								"J_Bip_C_Chest",
+								"J_Bip_C_UpperChest"
+							]
+						},
+						{
+							"Bone name": "head",
+							"Joint name": "J_Bip_C_Head",
+							"Joint path": [
+								"Root",
+								"J_Bip_C_Hips",
+								"J_Bip_C_Spine",
+								"J_Bip_C_Chest",
+								"J_Bip_C_UpperChest",
+								"J_Bip_C_Neck"
+							]
+						}
+					]
+				},
+				{
+					"Section": "Left arm",
+					"Names": [
+						{
+							"Bone name": "clavicle_l",
+							"Joint name": "J_Bip_L_Shoulder",
+							"Joint path": [
+								"Root",
+								"J_Bip_C_Hips",
+								"J_Bip_C_Spine",
+								"J_Bip_C_Chest",
+								"J_Bip_C_UpperChest"
+							]
+						},
+						{
+							"Bone name": "arm_l",
+							"Joint name": "J_Bip_L_UpperArm",
+							"Joint path": [
+								"Root",
+								"J_Bip_C_Hips",
+								"J_Bip_C_Spine",
+								"J_Bip_C_Chest",
+								"J_Bip_C_UpperChest",
+								"J_Bip_L_Shoulder"
+							]
+						},
+						{
+							"Bone name": "forearm_l",
+							"Joint name": "J_Bip_L_LowerArm",
+							"Joint path": [
+								"Root",
+								"J_Bip_C_Hips",
+								"J_Bip_C_Spine",
+								"J_Bip_C_Chest",
+								"J_Bip_C_UpperChest",
+								"J_Bip_L_Shoulder",
+								"J_Bip_L_UpperArm"
+							]
+						},
+						{
+							"Bone name": "hand_l",
+							"Joint name": "J_Bip_L_Hand",
+							"Joint path": [
+								"Root",
+								"J_Bip_C_Hips",
+								"J_Bip_C_Spine",
+								"J_Bip_C_Chest",
+								"J_Bip_C_UpperChest",
+								"J_Bip_L_Shoulder",
+								"J_Bip_L_UpperArm",
+								"J_Bip_L_LowerArm"
+							]
+						}
+					]
+				},
+				{
+					"Section": "Right arm",
+					"Names": [
+						{
+							"Bone name": "clavicle_r",
+							"Joint name": "J_Bip_R_Shoulder",
+							"Joint path": [
+								"Root",
+								"J_Bip_C_Hips",
+								"J_Bip_C_Spine",
+								"J_Bip_C_Chest",
+								"J_Bip_C_UpperChest"
+							]
+						},
+						{
+							"Bone name": "arm_r",
+							"Joint name": "J_Bip_R_UpperArm",
+							"Joint path": [
+								"Root",
+								"J_Bip_C_Hips",
+								"J_Bip_C_Spine",
+								"J_Bip_C_Chest",
+								"J_Bip_C_UpperChest",
+								"J_Bip_R_Shoulder"
+							]
+						},
+						{
+							"Bone name": "forearm_r",
+							"Joint name": "J_Bip_R_LowerArm",
+							"Joint path": [
+								"Root",
+								"J_Bip_C_Hips",
+								"J_Bip_C_Spine",
+								"J_Bip_C_Chest",
+								"J_Bip_C_UpperChest",
+								"J_Bip_R_Shoulder",
+								"J_Bip_R_UpperArm"
+							]
+						},
+						{
+							"Bone name": "hand_r",
+							"Joint name": "J_Bip_R_Hand",
+							"Joint path": [
+								"Root",
+								"J_Bip_C_Hips",
+								"J_Bip_C_Spine",
+								"J_Bip_C_Chest",
+								"J_Bip_C_UpperChest",
+								"J_Bip_R_Shoulder",
+								"J_Bip_R_UpperArm",
+								"J_Bip_R_LowerArm"
+							]
+						}
+					]
+				},
+				{
+					"Section": "Left leg",
+					"Names": [
+						{
+							"Bone name": "thigh_l",
+							"Joint name": "J_Bip_L_UpperLeg",
+							"Joint path": [
+								"Root",
+								"J_Bip_C_Hips"
+							]
+						},
+						{
+							"Bone name": "calf_l",
+							"Joint name": "J_Bip_L_LowerLeg",
+							"Joint path": [
+								"Root",
+								"J_Bip_C_Hips",
+								"J_Bip_L_UpperLeg"
+							]
+						},
+						{
+							"Bone name": "foot_l",
+							"Joint name": "J_Bip_L_Foot",
+							"Joint path": [
+								"Root",
+								"J_Bip_C_Hips",
+								"J_Bip_L_UpperLeg",
+								"J_Bip_L_LowerLeg"
+							]
+						},
+						{
+							"Bone name": "toe_l",
+							"Joint name": "J_Bip_L_ToeBase",
+							"Joint path": [
+								"Root",
+								"J_Bip_C_Hips",
+								"J_Bip_L_UpperLeg",
+								"J_Bip_L_LowerLeg",
+								"J_Bip_L_Foot"
+							]
+						}
+					]
+				},
+				{
+					"Section": "Right leg",
+					"Names": [
+						{
+							"Bone name": "thigh_r",
+							"Joint name": "J_Bip_R_UpperLeg",
+							"Joint path": [
+								"Root",
+								"J_Bip_C_Hips"
+							]
+						},
+						{
+							"Bone name": "calf_r",
+							"Joint name": "J_Bip_R_LowerLeg",
+							"Joint path": [
+								"Root",
+								"J_Bip_C_Hips",
+								"J_Bip_R_UpperLeg"
+							]
+						},
+						{
+							"Bone name": "foot_r",
+							"Joint name": "J_Bip_R_Foot",
+							"Joint path": [
+								"Root",
+								"J_Bip_C_Hips",
+								"J_Bip_R_UpperLeg",
+								"J_Bip_R_LowerLeg"
+							]
+						},
+						{
+							"Bone name": "toe_r",
+							"Joint name": "J_Bip_R_ToeBase",
+							"Joint path": [
+								"Root",
+								"J_Bip_C_Hips",
+								"J_Bip_R_UpperLeg",
+								"J_Bip_R_LowerLeg",
+								"J_Bip_R_Foot"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"Title": "Left hand",
+			"Sections": [
+				{
+					"Section": "Thumb",
+					"Names": [
+						{
+							"Bone name": "thumb_l_1",
+							"Joint name": "J_Bip_L_Thumb1",
+							"Joint path": [
+								"Root",
+								"J_Bip_C_Hips",
+								"J_Bip_C_Spine",
+								"J_Bip_C_Chest",
+								"J_Bip_C_UpperChest",
+								"J_Bip_L_Shoulder",
+								"J_Bip_L_UpperArm",
+								"J_Bip_L_LowerArm",
+								"J_Bip_L_Hand"
+							]
+						},
+						{
+							"Bone name": "thumb_l_2",
+							"Joint name": "J_Bip_L_Thumb2",
+							"Joint path": [
+								"Root",
+								"J_Bip_C_Hips",
+								"J_Bip_C_Spine",
+								"J_Bip_C_Chest",
+								"J_Bip_C_UpperChest",
+								"J_Bip_L_Shoulder",
+								"J_Bip_L_UpperArm",
+								"J_Bip_L_LowerArm",
+								"J_Bip_L_Hand",
+								"J_Bip_L_Thumb1"
+							]
+						},
+						{
+							"Bone name": "thumb_l_3",
+							"Joint name": "J_Bip_L_Thumb3",
+							"Joint path": [
+								"Root",
+								"J_Bip_C_Hips",
+								"J_Bip_C_Spine",
+								"J_Bip_C_Chest",
+								"J_Bip_C_UpperChest",
+								"J_Bip_L_Shoulder",
+								"J_Bip_L_UpperArm",
+								"J_Bip_L_LowerArm",
+								"J_Bip_L_Hand",
+								"J_Bip_L_Thumb1",
+								"J_Bip_L_Thumb2"
+							]
+						}
+					]
+				},
+				{
+					"Section": "Index finger",
+					"Names": [
+						{
+							"Bone name": "index_finger_l_1",
+							"Joint name": "J_Bip_L_Index1",
+							"Joint path": [
+								"Root",
+								"J_Bip_C_Hips",
+								"J_Bip_C_Spine",
+								"J_Bip_C_Chest",
+								"J_Bip_C_UpperChest",
+								"J_Bip_L_Shoulder",
+								"J_Bip_L_UpperArm",
+								"J_Bip_L_LowerArm",
+								"J_Bip_L_Hand"
+							]
+						},
+						{
+							"Bone name": "index_finger_l_2",
+							"Joint name": "J_Bip_L_Index2",
+							"Joint path": [
+								"Root",
+								"J_Bip_C_Hips",
+								"J_Bip_C_Spine",
+								"J_Bip_C_Chest",
+								"J_Bip_C_UpperChest",
+								"J_Bip_L_Shoulder",
+								"J_Bip_L_UpperArm",
+								"J_Bip_L_LowerArm",
+								"J_Bip_L_Hand",
+								"J_Bip_L_Index1"
+							]
+						},
+						{
+							"Bone name": "index_finger_l_3",
+							"Joint name": "J_Bip_L_Index3",
+							"Joint path": [
+								"Root",
+								"J_Bip_C_Hips",
+								"J_Bip_C_Spine",
+								"J_Bip_C_Chest",
+								"J_Bip_C_UpperChest",
+								"J_Bip_L_Shoulder",
+								"J_Bip_L_UpperArm",
+								"J_Bip_L_LowerArm",
+								"J_Bip_L_Hand",
+								"J_Bip_L_Index1",
+								"J_Bip_L_Index2"
+							]
+						}
+					]
+				},
+				{
+					"Section": "Middle finger",
+					"Names": [
+						{
+							"Bone name": "middle_finger_l_1",
+							"Joint name": "J_Bip_L_Middle1",
+							"Joint path": [
+								"Root",
+								"J_Bip_C_Hips",
+								"J_Bip_C_Spine",
+								"J_Bip_C_Chest",
+								"J_Bip_C_UpperChest",
+								"J_Bip_L_Shoulder",
+								"J_Bip_L_UpperArm",
+								"J_Bip_L_LowerArm",
+								"J_Bip_L_Hand"
+							]
+						},
+						{
+							"Bone name": "middle_finger_l_2",
+							"Joint name": "J_Bip_L_Middle2",
+							"Joint path": [
+								"Root",
+								"J_Bip_C_Hips",
+								"J_Bip_C_Spine",
+								"J_Bip_C_Chest",
+								"J_Bip_C_UpperChest",
+								"J_Bip_L_Shoulder",
+								"J_Bip_L_UpperArm",
+								"J_Bip_L_LowerArm",
+								"J_Bip_L_Hand",
+								"J_Bip_L_Middle1"
+							]
+						},
+						{
+							"Bone name": "middle_finger_l_3",
+							"Joint name": "J_Bip_L_Middle3",
+							"Joint path": [
+								"Root",
+								"J_Bip_C_Hips",
+								"J_Bip_C_Spine",
+								"J_Bip_C_Chest",
+								"J_Bip_C_UpperChest",
+								"J_Bip_L_Shoulder",
+								"J_Bip_L_UpperArm",
+								"J_Bip_L_LowerArm",
+								"J_Bip_L_Hand",
+								"J_Bip_L_Middle1",
+								"J_Bip_L_Middle2"
+							]
+						}
+					]
+				},
+				{
+					"Section": "Ring finger",
+					"Names": [
+						{
+							"Bone name": "ring_finger_l_1",
+							"Joint name": "J_Bip_L_Ring1",
+							"Joint path": [
+								"Root",
+								"J_Bip_C_Hips",
+								"J_Bip_C_Spine",
+								"J_Bip_C_Chest",
+								"J_Bip_C_UpperChest",
+								"J_Bip_L_Shoulder",
+								"J_Bip_L_UpperArm",
+								"J_Bip_L_LowerArm",
+								"J_Bip_L_Hand"
+							]
+						},
+						{
+							"Bone name": "ring_finger_l_2",
+							"Joint name": "J_Bip_L_Ring2",
+							"Joint path": [
+								"Root",
+								"J_Bip_C_Hips",
+								"J_Bip_C_Spine",
+								"J_Bip_C_Chest",
+								"J_Bip_C_UpperChest",
+								"J_Bip_L_Shoulder",
+								"J_Bip_L_UpperArm",
+								"J_Bip_L_LowerArm",
+								"J_Bip_L_Hand",
+								"J_Bip_L_Ring1"
+							]
+						},
+						{
+							"Bone name": "ring_finger_l_3",
+							"Joint name": "J_Bip_L_Ring3",
+							"Joint path": [
+								"Root",
+								"J_Bip_C_Hips",
+								"J_Bip_C_Spine",
+								"J_Bip_C_Chest",
+								"J_Bip_C_UpperChest",
+								"J_Bip_L_Shoulder",
+								"J_Bip_L_UpperArm",
+								"J_Bip_L_LowerArm",
+								"J_Bip_L_Hand",
+								"J_Bip_L_Ring1",
+								"J_Bip_L_Ring2"
+							]
+						}
+					]
+				},
+				{
+					"Section": "Pinky",
+					"Names": [
+						{
+							"Bone name": "pinky_l_1",
+							"Joint name": "J_Bip_L_Little1",
+							"Joint path": [
+								"Root",
+								"J_Bip_C_Hips",
+								"J_Bip_C_Spine",
+								"J_Bip_C_Chest",
+								"J_Bip_C_UpperChest",
+								"J_Bip_L_Shoulder",
+								"J_Bip_L_UpperArm",
+								"J_Bip_L_LowerArm",
+								"J_Bip_L_Hand"
+							]
+						},
+						{
+							"Bone name": "pinky_l_2",
+							"Joint name": "J_Bip_L_Little2",
+							"Joint path": [
+								"Root",
+								"J_Bip_C_Hips",
+								"J_Bip_C_Spine",
+								"J_Bip_C_Chest",
+								"J_Bip_C_UpperChest",
+								"J_Bip_L_Shoulder",
+								"J_Bip_L_UpperArm",
+								"J_Bip_L_LowerArm",
+								"J_Bip_L_Hand",
+								"J_Bip_L_Little1"
+							]
+						},
+						{
+							"Bone name": "pinky_l_3",
+							"Joint name": "J_Bip_L_Little3",
+							"Joint path": [
+								"Root",
+								"J_Bip_C_Hips",
+								"J_Bip_C_Spine",
+								"J_Bip_C_Chest",
+								"J_Bip_C_UpperChest",
+								"J_Bip_L_Shoulder",
+								"J_Bip_L_UpperArm",
+								"J_Bip_L_LowerArm",
+								"J_Bip_L_Hand",
+								"J_Bip_L_Little1",
+								"J_Bip_L_Little2"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"Title": "Right hand",
+			"Sections": [
+				{
+					"Section": "Thumb",
+					"Names": [
+						{
+							"Bone name": "thumb_r_1",
+							"Joint name": "J_Bip_R_Thumb1",
+							"Joint path": [
+								"Root",
+								"J_Bip_C_Hips",
+								"J_Bip_C_Spine",
+								"J_Bip_C_Chest",
+								"J_Bip_C_UpperChest",
+								"J_Bip_R_Shoulder",
+								"J_Bip_R_UpperArm",
+								"J_Bip_R_LowerArm",
+								"J_Bip_R_Hand"
+							]
+						},
+						{
+							"Bone name": "thumb_r_2",
+							"Joint name": "J_Bip_R_Thumb2",
+							"Joint path": [
+								"Root",
+								"J_Bip_C_Hips",
+								"J_Bip_C_Spine",
+								"J_Bip_C_Chest",
+								"J_Bip_C_UpperChest",
+								"J_Bip_R_Shoulder",
+								"J_Bip_R_UpperArm",
+								"J_Bip_R_LowerArm",
+								"J_Bip_R_Hand",
+								"J_Bip_R_Thumb1"
+							]
+						},
+						{
+							"Bone name": "thumb_r_3",
+							"Joint name": "J_Bip_R_Thumb3",
+							"Joint path": [
+								"Root",
+								"J_Bip_C_Hips",
+								"J_Bip_C_Spine",
+								"J_Bip_C_Chest",
+								"J_Bip_C_UpperChest",
+								"J_Bip_R_Shoulder",
+								"J_Bip_R_UpperArm",
+								"J_Bip_R_LowerArm",
+								"J_Bip_R_Hand",
+								"J_Bip_R_Thumb1",
+								"J_Bip_R_Thumb2"
+							]
+						}
+					]
+				},
+				{
+					"Section": "Index finger",
+					"Names": [
+						{
+							"Bone name": "index_finger_r_1",
+							"Joint name": "J_Bip_R_Index1",
+							"Joint path": [
+								"Root",
+								"J_Bip_C_Hips",
+								"J_Bip_C_Spine",
+								"J_Bip_C_Chest",
+								"J_Bip_C_UpperChest",
+								"J_Bip_R_Shoulder",
+								"J_Bip_R_UpperArm",
+								"J_Bip_R_LowerArm",
+								"J_Bip_R_Hand"
+							]
+						},
+						{
+							"Bone name": "index_finger_r_2",
+							"Joint name": "J_Bip_R_Index2",
+							"Joint path": [
+								"Root",
+								"J_Bip_C_Hips",
+								"J_Bip_C_Spine",
+								"J_Bip_C_Chest",
+								"J_Bip_C_UpperChest",
+								"J_Bip_R_Shoulder",
+								"J_Bip_R_UpperArm",
+								"J_Bip_R_LowerArm",
+								"J_Bip_R_Hand",
+								"J_Bip_R_Index1"
+							]
+						},
+						{
+							"Bone name": "index_finger_r_3",
+							"Joint name": "J_Bip_R_Index3",
+							"Joint path": [
+								"Root",
+								"J_Bip_C_Hips",
+								"J_Bip_C_Spine",
+								"J_Bip_C_Chest",
+								"J_Bip_C_UpperChest",
+								"J_Bip_R_Shoulder",
+								"J_Bip_R_UpperArm",
+								"J_Bip_R_LowerArm",
+								"J_Bip_R_Hand",
+								"J_Bip_R_Index1",
+								"J_Bip_R_Index2"
+							]
+						}
+					]
+				},
+				{
+					"Section": "Middle finger",
+					"Names": [
+						{
+							"Bone name": "middle_finger_r_1",
+							"Joint name": "J_Bip_R_Middle1",
+							"Joint path": [
+								"Root",
+								"J_Bip_C_Hips",
+								"J_Bip_C_Spine",
+								"J_Bip_C_Chest",
+								"J_Bip_C_UpperChest",
+								"J_Bip_R_Shoulder",
+								"J_Bip_R_UpperArm",
+								"J_Bip_R_LowerArm",
+								"J_Bip_R_Hand"
+							]
+						},
+						{
+							"Bone name": "middle_finger_r_2",
+							"Joint name": "J_Bip_R_Middle2",
+							"Joint path": [
+								"Root",
+								"J_Bip_C_Hips",
+								"J_Bip_C_Spine",
+								"J_Bip_C_Chest",
+								"J_Bip_C_UpperChest",
+								"J_Bip_R_Shoulder",
+								"J_Bip_R_UpperArm",
+								"J_Bip_R_LowerArm",
+								"J_Bip_R_Hand",
+								"J_Bip_R_Middle1"
+							]
+						},
+						{
+							"Bone name": "middle_finger_r_3",
+							"Joint name": "J_Bip_R_Middle3",
+							"Joint path": [
+								"Root",
+								"J_Bip_C_Hips",
+								"J_Bip_C_Spine",
+								"J_Bip_C_Chest",
+								"J_Bip_C_UpperChest",
+								"J_Bip_R_Shoulder",
+								"J_Bip_R_UpperArm",
+								"J_Bip_R_LowerArm",
+								"J_Bip_R_Hand",
+								"J_Bip_R_Middle1",
+								"J_Bip_R_Middle2"
+							]
+						}
+					]
+				},
+				{
+					"Section": "Ring finger",
+					"Names": [
+						{
+							"Bone name": "ring_finger_r_1",
+							"Joint name": "J_Bip_R_Ring1",
+							"Joint path": [
+								"Root",
+								"J_Bip_C_Hips",
+								"J_Bip_C_Spine",
+								"J_Bip_C_Chest",
+								"J_Bip_C_UpperChest",
+								"J_Bip_R_Shoulder",
+								"J_Bip_R_UpperArm",
+								"J_Bip_R_LowerArm",
+								"J_Bip_R_Hand"
+							]
+						},
+						{
+							"Bone name": "ring_finger_r_2",
+							"Joint name": "J_Bip_R_Ring2",
+							"Joint path": [
+								"Root",
+								"J_Bip_C_Hips",
+								"J_Bip_C_Spine",
+								"J_Bip_C_Chest",
+								"J_Bip_C_UpperChest",
+								"J_Bip_R_Shoulder",
+								"J_Bip_R_UpperArm",
+								"J_Bip_R_LowerArm",
+								"J_Bip_R_Hand",
+								"J_Bip_R_Ring1"
+							]
+						},
+						{
+							"Bone name": "ring_finger_r_3",
+							"Joint name": "J_Bip_R_Ring3",
+							"Joint path": [
+								"Root",
+								"J_Bip_C_Hips",
+								"J_Bip_C_Spine",
+								"J_Bip_C_Chest",
+								"J_Bip_C_UpperChest",
+								"J_Bip_R_Shoulder",
+								"J_Bip_R_UpperArm",
+								"J_Bip_R_LowerArm",
+								"J_Bip_R_Hand",
+								"J_Bip_R_Ring1",
+								"J_Bip_R_Ring2"
+							]
+						}
+					]
+				},
+				{
+					"Section": "Pinky",
+					"Names": [
+						{
+							"Bone name": "pinky_r_1",
+							"Joint name": "J_Bip_R_Little1",
+							"Joint path": [
+								"Root",
+								"J_Bip_C_Hips",
+								"J_Bip_C_Spine",
+								"J_Bip_C_Chest",
+								"J_Bip_C_UpperChest",
+								"J_Bip_R_Shoulder",
+								"J_Bip_R_UpperArm",
+								"J_Bip_R_LowerArm",
+								"J_Bip_R_Hand"
+							]
+						},
+						{
+							"Bone name": "pinky_r_2",
+							"Joint name": "J_Bip_R_Little2",
+							"Joint path": [
+								"Root",
+								"J_Bip_C_Hips",
+								"J_Bip_C_Spine",
+								"J_Bip_C_Chest",
+								"J_Bip_C_UpperChest",
+								"J_Bip_R_Shoulder",
+								"J_Bip_R_UpperArm",
+								"J_Bip_R_LowerArm",
+								"J_Bip_R_Hand",
+								"J_Bip_R_Little1"
+							]
+						},
+						{
+							"Bone name": "pinky_r_3",
+							"Joint name": "J_Bip_R_Little3",
+							"Joint path": [
+								"Root",
+								"J_Bip_C_Hips",
+								"J_Bip_C_Spine",
+								"J_Bip_C_Chest",
+								"J_Bip_C_UpperChest",
+								"J_Bip_R_Shoulder",
+								"J_Bip_R_UpperArm",
+								"J_Bip_R_LowerArm",
+								"J_Bip_R_Hand",
+								"J_Bip_R_Little1",
+								"J_Bip_R_Little2"
+							]
+						}
+					]
+				}
+			]
+		}
+	],
+	"Settings": {
+		"Is align pelvis": true,
+		"Is create layers": true
+	}
+}
