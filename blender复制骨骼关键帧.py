@@ -2,7 +2,7 @@ import bpy
 
 # 设置源骨架和目标骨架的名称
 source_armature_name = "Armature"
-target_armature_name = "粒春"
+target_armature_name = "Armature.001"
 
 # 获取源骨架和目标骨架对象
 source_armature = bpy.data.objects.get(source_armature_name)
