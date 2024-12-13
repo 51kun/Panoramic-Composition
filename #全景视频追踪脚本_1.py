@@ -1,13 +1,14 @@
 import bpy
 import numpy as np
-
-#需要改，环境纹理勾选自动刷新，3DEqualizer4追踪insta360x3外镜头初始参数：胶片高度5.9962，焦距33.4592
+#ffmpeg -i 1.mp4 -q:v 0 -vsync 0 1/%04d.jpeg
+#环境纹理勾选自动刷新，3DEqualizer4追踪insta360x3外镜头初始参数：胶片高度5.9962，焦距33.4592
+#需要改的参数
 start_frame = 1          #起始帧
 end_frame = 90           #结束帧
 jiequ = "摄像机"          #截取全景图的摄像机
 xiangji_3de = "0001_1_1" #3de导出的摄像机
 
-#不需要改
+#不需要改的参数
 fanxiangqiuti = "反向球体"
 zuizhongjieguo = "最终结果"
 obj = bpy.data.objects.get(jiequ)
