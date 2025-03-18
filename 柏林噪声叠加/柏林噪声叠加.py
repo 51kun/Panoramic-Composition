@@ -69,7 +69,7 @@ def process_images(input_folder, overlay_image, output_folder):
 
 def main():
     input_folder = "A"  # 文件夹A
-    overlay_image = "p.png"  # 要叠加的柏林噪声图片
+    overlay_image = "1080p.png"  # 要叠加的柏林噪声图片
     output_folder = "B"  # 文件夹B
     
     process_images(input_folder, overlay_image, output_folder)
